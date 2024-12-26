@@ -22,6 +22,7 @@ import ConsultingPage from './pages/ConsultingPage';
 import FAQPage from './pages/FAQPage';
 import CasesPage from './pages/CasesPage';
 import TestimonialsPage from './pages/TestimonialsPage';
+import SocialMediaManagement from './pages/SocialMediaManagement';
 
 // Data Analysis Pages
 import CustomAnalysisPage from './pages/data/CustomAnalysisPage';
@@ -64,6 +65,7 @@ function App() {
             <Route path="/cases" element={<CasesPage />} />
             <Route path="/testimonials" element={<TestimonialsPage />} />
             <Route path="/sobre" element={<Sobre />} /> {/* Added route for Sobre */}
+            <Route path="/social-media-management" element={<SocialMediaManagement />} />
 
             {/* Data Analysis Routes */}
             <Route path="/custom-analysis" element={<CustomAnalysisPage />} />
